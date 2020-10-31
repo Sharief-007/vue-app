@@ -1,6 +1,6 @@
 <template>
 <div class="d-flex justify-content-between align-items-center p-2 bg-dark">
-  <b-avatar text="S"></b-avatar>
+  <b-avatar></b-avatar>
   <b-button-toolbar>
     <b-button-group>
       <b-button title="Compose Message" variant="dark">

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <b-nav pills justified vertical>
+  <div class="root">
+    <b-nav pills justified vertical class="navigation">
       <b-nav-item to="/" exact exact-active-class="active">
         <b-icon icon="chat-text-fill"></b-icon>
         <span class="hide-on-mobile pl-1">Chats</span>
@@ -31,8 +31,9 @@ export default {
 </script>
 
 <style scoped>
+
 @media only screen and (max-width: 900px) {
-  .hide-on-mobile{
+  .hide-on-mobile {
     display: none;
   }
 }

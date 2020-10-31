@@ -32,7 +32,6 @@ export default {
   width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: row;
 }
 
 .sidebar{
@@ -52,12 +51,13 @@ export default {
 
 .main {
   flex: 1;
-  background: white;
+  /*background: white;*/
 }
 
 @media only screen and (max-width: 900px) {
-  .sidebar {
-    flex: 0;
-  }
+  /*.sidebar {*/
+  /*  flex: 0;*/
+  /*}*/
 }
+
 </style>

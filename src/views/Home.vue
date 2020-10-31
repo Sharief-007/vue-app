@@ -24,7 +24,7 @@
       </div>
     </div>
     <div class="chat-area">
-
+      <Chat/>
     </div>
   </div>
 </template>
@@ -33,11 +33,14 @@
 // @ is an alias to /src
 import Header from "@/components/Header";
 import Recepient from "@/components/Recepient";
+import Chat from "./Chat"
+
 export default {
   name: 'Home',
   components: {
     Header,
-    Recepient
+    Recepient,
+    Chat
   }
 }
 </script>
@@ -98,5 +101,15 @@ export default {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
   /*background-color: #D62929;*/
   background: #0275d8;
+}
+
+
+@media only screen and  (max-width: 600px){
+  .receipints-sidebar {
+    flex: 1;
+  }
+  .chat-area {
+    flex: 0;
+  }
 }
 </style>

@@ -3,8 +3,8 @@
   <div class="image ">
     <b-avatar size="50px" variant="primary"></b-avatar>
   </div>
-  <div class="d-flex flex-column pl-1 flex-grow-1">
-    <h2 class="p-0 m-0">Sharief</h2>
+  <div class="d-flex flex-column pl-2 flex-grow-1">
+    <h3 class="m-0" id="recepient-name">Sharief</h3>
     <p>Message mess lorem ipsum</p>
   </div>
   <div class="d-flex flex-grow-1">
@@ -31,5 +31,9 @@ export default {
   /*background: #edece8;*/
   background-color: rgba(0,0,0,0.75);
   cursor: pointer;
+}
+
+#recepient-name{
+  padding-top: 10px;
 }
 </style>
